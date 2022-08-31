@@ -1,0 +1,19 @@
+@import "./base.css";
+
+#app {
+  font-weight: normal;
+  margin:0;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: rgb(82, 131, 238);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(219, 100%, 37%, 0.2);
+  }
+}
